@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif; /* Apply Poppins font family to all elements */
+}
+
+/* Define font weights and styles */
+.poppins-thin {
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-weight: 900;
+  font-style: italic;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgb(69, 68, 110), rgba(255, 255, 255, 0.7)), url(image/logo.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-color: white; /* Add background color here */
+}
+
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 150px;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+
+  list-style: none;
+  display: inline-block;
+  padding: 15px 30px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+.nav-links
+{background: rgba(65, 68, 212, 0.342);
+  text-align: center;
+
+}
+.sub-menu-1{
+  display: none;
+}
+.nav-links ul li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  background: rgb(69, 68, 110);
+  margin-top: 15px;
+  margin-left: -15x;
+
+}
+.nav-links ul li:hover .sub-menu-1 ul li{
+  display: block;
+  margin: 10px;
+
+
+}
+
+.nav-links ul li:hover .sub-menu-1 ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+
+}
+
+.nav-links ul li:hover .sub-menu-1 ul li:last-child
+{
+  border-bottom: none;
+}
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+  border-bottom: 3px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid #333;
+  border-radius: 0.25rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #333;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #333;
+  font-weight: bold;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+      display: block;
+  }
+
+  th,
+  td {
+      padding: 0.5rem;
+      border-bottom: 1px solid #ddd;
+  }
+
+  thead {
+      display: none;
+  }
+}
